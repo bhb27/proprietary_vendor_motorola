@@ -25,6 +25,8 @@ PRODUCT_PACKAGES += \
     com.motorola.motosignature \
     com.motorola.ims.rcsmanager \
     imscmlibrary \
+    com.verizon.hardware.telephony.lte \
+    com.verizon.hardware.telephony.srlte \
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
@@ -58,6 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.ims.rcsmanager.xml:system/etc/permissions/com.motorola.ims.rcsmanager.xml \
     vendor/motorola/quark/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/motorola/quark/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte \
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/motorola/quark/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/motorola/quark/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so
