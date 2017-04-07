@@ -69,3 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
     vendor/motorola/quark/proprietary/lib/libmsp_vzw.so:system/lib/libmsp_vzw.so \
     vendor/motorola/quark/proprietary/priv-app/LteBroadcastServices_vzw/lib/arm/libmsp_vzw.so:system/priv-app/LteBroadcastServices_vzw/lib/arm/libmsp_vzw.so
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg:system/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_1.cfg:system/etc/diag_mdlog/FIT_V20_1.cfg
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg:system/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/Connection_Issues_V11.cfg:system/etc/diag_mdlog/Connection_Issues_V11.cfg
+    
