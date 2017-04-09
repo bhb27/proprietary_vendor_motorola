@@ -73,4 +73,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/diag_mdlog/default.opts:system/etc/diag_mdlog/default.opts \
     vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_1.cfg:system/etc/diag_mdlog/FIT_V20_1.cfg \
     vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg:system/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg \
-    vendor/motorola/quark/proprietary/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg:system/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg:system/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg \
+    vendor/motorola/quark/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/motorola/quark/proprietary/framework/com.verizon.ims.jar:system/framework/com.verizon.ims.jar \
+    vendor/motorola/quark/proprietary/framework/com.motorola.ims.rcsmanager.jar:system/framework/com.motorola.ims.rcsmanager.jar \
+    vendor/motorola/quark/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
+    vendor/motorola/quark/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
+    vendor/motorola/quark/proprietary/framework/com.verizon.hardware.telephony.ehrpd.jar:system/framework/com.verizon.hardware.telephony.ehrpd.jar \
+    vendor/motorola/quark/proprietary/framework/com.verizon.hardware.telephony.lte.jar:system/framework/com.verizon.hardware.telephony.lte.jar \
+    vendor/motorola/quark/proprietary/framework/com.verizon.hardware.telephony.srlte.jar:system/framework/com.verizon.hardware.telephony.srlte.jar \
+    vendor/motorola/quark/proprietary/framework/com.verizon.ims.jar:system/framework/com.verizon.ims.jar \
+    vendor/motorola/quark/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar
