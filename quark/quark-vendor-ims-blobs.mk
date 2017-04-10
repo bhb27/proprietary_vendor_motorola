@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     RCSBootstraputil \
     RcsImsBootstraputil \
     LteBroadcastServices_vzw \
-    vzw_msdc_api
+    vzw_msdc_api \
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/quark/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/motorola/quark/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/quark/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/motorola/quark/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/vendor/app/ims/lib/arm/libimscamera_jni.so \
     vendor/motorola/quark/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
