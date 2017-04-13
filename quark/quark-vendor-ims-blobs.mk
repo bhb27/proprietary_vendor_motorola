@@ -31,9 +31,7 @@ PRODUCT_PACKAGES += \
     vzw_msdc_api 
 
 # Packages cause problems
-#    RcsServiceM \
-#    rcsservice \ (allthough, this one should work without the other)
- 
+#    RcsServiceM \ 
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
