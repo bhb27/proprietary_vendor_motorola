@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     ImsConfigTest \
     ims \
     RCSBootstraputil \
-    RcsServiceM \
     RcsImsBootstraputil \
     com.verizon.ims \
     com.motorola.ims.rcsmanager \
@@ -30,6 +29,11 @@ PRODUCT_PACKAGES += \
     rcsservice \
     LteBroadcastServices_vzw \
     vzw_msdc_api 
+
+# Packages cause problems
+#    RcsServiceM \
+#    rcsservice \ (allthough, this one should work without the other)
+ 
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
