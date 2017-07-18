@@ -16,12 +16,22 @@
 
 # apps and frame
 PRODUCT_PACKAGES += \
-    ims \
+    com.motorola.motosignature \
     imscmlibrary \
+    imssettings \
+    ImsConfigTest \
+    ims \
     RCSBootstraputil \
     RcsImsBootstraputil \
+    com.verizon.ims \
+    com.motorola.ims.rcsmanager \
+    rcsimssettings \
+    rcsservice \
     LteBroadcastServices_vzw \
-    vzw_msdc_api
+    vzw_msdc_api 
+
+# Packages cause problems
+#    RcsServiceM \ 
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
