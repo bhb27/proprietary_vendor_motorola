@@ -78,11 +78,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/quark/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/quark/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
-    vendor/motorola/quark/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/motorola/quark/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/quark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/quark/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/quark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/quark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/quark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/quark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
