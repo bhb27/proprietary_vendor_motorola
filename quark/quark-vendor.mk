@@ -369,6 +369,7 @@ PRODUCT_PACKAGES += \
     com.google.android.maps \
     com.verizon.hardware.telephony.srlte \
     KernelAdiutor \
+    iSu \
     TurboToast \
     Adaway \
     mcamera
