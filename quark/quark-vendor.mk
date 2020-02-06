@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/motorola/quark/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/motorola/quark/proprietary/vendor/bin/ks:system/vendor/bin/ks \
+    vendor/motorola/quark/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/quark/proprietary/vendor/bin/mdm_helper:system/vendor/bin/mdm_helper \
     vendor/motorola/quark/proprietary/vendor/bin/mdm_helper_proxy:system/vendor/bin/mdm_helper_proxy \
     vendor/motorola/quark/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -52,19 +53,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/motorola/quark/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/motorola/quark/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/org.simalliance.openmobileapi.xml:system/vendor/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
-    vendor/motorola/quark/proprietary/etc/quipc.conf:system/etc/quipc.conf \
-    vendor/motorola/quark/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/quark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/quark/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
-    vendor/motorola/quark/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/quark/proprietary/lib/hw/sensorhub.apq8084.so:system/lib/hw/sensorhub.apq8084.so \
     vendor/motorola/quark/proprietary/lib/hw/sensors.apq8084.so:system/lib/hw/sensors.apq8084.so \
     vendor/motorola/quark/proprietary/lib/hw/sound_trigger.primary.apq8084.so:system/lib/hw/sound_trigger.primary.apq8084.so \
@@ -78,11 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/quark/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/quark/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
-    vendor/motorola/quark/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/motorola/quark/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/quark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/motorola/quark/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/quark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/quark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/quark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/quark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
@@ -238,6 +228,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/quark/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/motorola/quark/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/motorola/quark/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/motorola/quark/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
