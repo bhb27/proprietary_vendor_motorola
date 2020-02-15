@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/quark/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/motorola/quark/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
-    vendor/motorola/quark/proprietary/vendor/bin/charge_only_mode:system/vendor/bin/charge_only_mode \
     vendor/motorola/quark/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/quark/proprietary/vendor/bin/dbvc_atvc_property_set:system/vendor/bin/dbvc_atvc_property_set \
     vendor/motorola/quark/proprietary/vendor/bin/efsks:system/vendor/bin/efsks \
