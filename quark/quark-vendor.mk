@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/bin/mdm_helper:system/vendor/bin/mdm_helper \
     vendor/motorola/quark/proprietary/vendor/bin/mdm_helper_proxy:system/vendor/bin/mdm_helper_proxy \
     vendor/motorola/quark/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/motorola/quark/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/quark/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/motorola/quark/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/motorola/quark/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
