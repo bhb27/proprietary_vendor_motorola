@@ -360,9 +360,7 @@ PRODUCT_PACKAGES += \
     com.google.android.maps \
     com.verizon.hardware.telephony.srlte \
     KernelAdiutor \
-    iSu \
     TurboToast \
-    Adaway \
     mcamera
 
 PRODUCT_COPY_FILES += \
@@ -371,8 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so \
     vendor/motorola/quark/proprietary/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/com.google.android.maps.xml:system/vendor/etc/permissions/com.google.android.maps.xml \
-    vendor/motorola/quark/proprietary/vendor/app/Adaway/lib/arm/libblank_webserver_exec.so:system/vendor/app/Adaway/lib/arm/libblank_webserver_exec.so \
-    vendor/motorola/quark/proprietary/vendor/app/Adaway/lib/arm/libtcpdump_exec.so:system/vendor/app/Adaway/lib/arm/libtcpdump_exec.so \
     vendor/motorola/quark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \

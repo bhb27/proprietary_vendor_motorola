@@ -397,17 +397,6 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := iSu
-LOCAL_MODULE_OWNER := bhb27
-LOCAL_SRC_FILES := proprietary/vendor/app/iSu/iSu.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := KernelAdiutor
 LOCAL_MODULE_OWNER := bhb27
 LOCAL_SRC_FILES := proprietary/vendor/app/KernelAdiutor/KernelAdiutor.apk
@@ -422,17 +411,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := TurboToast
 LOCAL_MODULE_OWNER := bhb27
 LOCAL_SRC_FILES := proprietary/vendor/app/TurboToast/TurboToast.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Adaway
-LOCAL_MODULE_OWNER := Adaway
-LOCAL_SRC_FILES := proprietary/vendor/app/Adaway/Adaway.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
